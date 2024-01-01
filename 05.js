@@ -77,35 +77,35 @@ class Teapot extends Electrodevice {
 
 //*****ДЛЯ ТЕСТА*****
 
-const livingRoomLamp = new Lamp(0.5, 67697);
-const bedRoomLamp = new Lamp(1, 64774);
-const livingRoomTelevision = new Television(2, 1999);
-const kitchenTelevision = new Television(2, 2021);
-const kitchenTeapot = new Teapot(0.7);
-const livingRoomTeapot = new Teapot(0.8);
+// const livingRoomLamp = new Lamp(0.5, 67697);
+// const bedRoomLamp = new Lamp(1, 64774);
+// const livingRoomTelevision = new Television(2, 1999);
+// const kitchenTelevision = new Television(2, 2021);
+// const kitchenTeapot = new Teapot(0.7);
+// const livingRoomTeapot = new Teapot(0.8);
 
-livingRoomLamp.turnOnElectrodevice();
-console.log (livingRoomLamp.status);
+// livingRoomLamp.turnOnElectrodevice();
+// console.log (livingRoomLamp.status);
 
-bedRoomLamp.turnOffElectrodevice();
-console.log (bedRoomLamp.status);
+// bedRoomLamp.turnOffElectrodevice();
+// console.log (bedRoomLamp.status);
 
-kitchenTeapot.turnOnElectrodevice();
-console.log (kitchenTeapot.status);
+// kitchenTeapot.turnOnElectrodevice();
+// console.log (kitchenTeapot.status);
 
-livingRoomTelevision.calculatePower();
-kitchenTelevision.calculatePower();
-livingRoomTeapot.calculatePower();
+// livingRoomTelevision.calculatePower();
+// kitchenTelevision.calculatePower();
+// livingRoomTeapot.calculatePower();
 
-livingRoomLamp.getInfo();
-bedRoomLamp.getInfo();
+// livingRoomLamp.getInfo();
+// bedRoomLamp.getInfo();
 
-livingRoomTelevision.getServiceLife();
+// livingRoomTelevision.getServiceLife();
 
-kitchenTeapot.boilIt();
-livingRoomTeapot.boilIt();
-livingRoomTeapot.boilIt();
-kitchenTeapot.boilIt();
-kitchenTeapot.boilIt();
-kitchenTeapot.countBoilIt();
-livingRoomTeapot.countBoilIt();
+// kitchenTeapot.boilIt();
+// livingRoomTeapot.boilIt();
+// livingRoomTeapot.boilIt();
+// kitchenTeapot.boilIt();
+// kitchenTeapot.boilIt();
+// kitchenTeapot.countBoilIt();
+// livingRoomTeapot.countBoilIt();
